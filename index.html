@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>addItemLocaLstorage</title>
+</head>
+
+<body>
+  <input type="text" id="add" value="" />
+  <button type="submit" id="add_data" onclick="addItemLocaLstorage(addData.value)">addData
+  </button>
+  <br /><br />
+  <input type="text" id="del" value=""/>
+  <button type="text" id="del_data" onclick="removeItemLocalstorage(delData.value)">delData
+  </button>
+  <br><br>
+  <button type="text" id="del_all" onclick="delAllItemLocalstorage()">delAllDataLocalstorage
+  </button>
+  <h2 id="prt_data"> data </h2>
+
+  <script defer src="./localStorage.js"></script>
+</body>
+
+</html>
